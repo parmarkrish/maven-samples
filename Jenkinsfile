@@ -1,8 +1,8 @@
 pipeline {
   agent any
   tools { 
-      maven 'DHT_MVN' 
-      jdk 'DHT_SENSE' 
+      maven 'mvn-3.9.6' 
+      jdk 'jdk-1.8' 
   }
   stages {
     stage('check out') {
